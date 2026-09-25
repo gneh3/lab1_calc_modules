@@ -1,0 +1,2 @@
+SIGNS_ALPHABET: str = "+-*/%^"
+ROUNDING_PRECISION: int = 5
