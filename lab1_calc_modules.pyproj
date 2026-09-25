@@ -38,13 +38,16 @@
     <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\toolkit\additional_functions.py" />
     <Compile Include="src\toolkit\calculator.py" />
     <Compile Include="src\toolkit\constants.py" />
     <Compile Include="src\toolkit\converter.py" />
     <Compile Include="src\toolkit\errors.py" />
-    <Compile Include="src\toolkit\validator.py" />
     <Compile Include="src\toolkit\__main__.py" />
     <Compile Include="src\toolkit\__init__.py" />
+    <Compile Include="tests\test_calculator.py" />
+    <Compile Include="tests\test_cli.py" />
+    <Compile Include="tests\test_converter.py" />
     <Compile Include="tests\__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

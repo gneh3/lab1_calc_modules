@@ -1,6 +1,7 @@
 from decimal import Decimal
 
 import pytest
+
 from toolkit.converter import Converter
 from toolkit.errors import ConverterError
 

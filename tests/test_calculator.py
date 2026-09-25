@@ -1,6 +1,7 @@
 from decimal import Decimal
 
 import pytest
+
 from toolkit.calculator import ParserToRPN, RPNCalculator, Tokenizer
 from toolkit.errors import CalculatorError
 
